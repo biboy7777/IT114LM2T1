@@ -73,6 +73,13 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="exc5.Master.cs">
+      <DependentUpon>exc5.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="exc5.Master.designer.cs">
+      <DependentUpon>exc5.Master</DependentUpon>
+    </Compile>
     <Compile Include="Exercise0.aspx.cs">
       <DependentUpon>Exercise0.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -118,6 +125,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="exc5.Master" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
