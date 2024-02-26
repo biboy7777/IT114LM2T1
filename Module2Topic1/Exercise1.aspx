@@ -19,7 +19,7 @@
 
         <%-- TODO 2.2 Create an image that is 200px by 200x big showing the album cover of your favorite song. Make sure to set the alternative text. --%>
         <%-- Hint: https://www.tutorialspoint.com/asp.net/asp.net_basic_controls.htm#:~:text=Image%20Control --%>
-        <asp:Image ID="imageSong" runat="server" ImageUrl="https://upload.wikimedia.org/wikipedia/en/3/3c/Can%27t_Help_Falling_in_Love_by_Elvis_Presley_US_picture_sleeve.png" Height="200px" Width="200px" AlternateText="Can't Help Falling in Love Album Cover"/>
+        <asp:Image ID="imageSong" runat="server" ImageUrl="~/Images/songImage.png" Height="200px" Width="200px" AlternateText="Can't Help Falling in Love Album Cover"/>
         <br />
         <br />
 
