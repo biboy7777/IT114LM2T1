@@ -11,7 +11,26 @@ namespace Module1Exercise1
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            this.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
+        }
 
+        protected void submitBtn_Click(object sender, EventArgs e)
+        {
+            if (fullName.Text != "" && age.Text != "" && email.Text != "")
+            {
+                if (Page.IsValid)
+                {
+                    result.Text = $"Full Name: {fullName.Text}<br/>Age: {age.Text}<br/>Email: {email.Text}";
+                }
+                else
+                {
+                    result.Text = "Please ensure every input is correct.";
+                }
+            }
+            else
+            {
+                result.Text = "Please input all the necessary values.";
+            }
         }
     }
 }
