@@ -13,5 +13,12 @@ namespace Module1Exercise1
         {
 
         }
+
+
+        protected void playButton_Click(object sender, EventArgs e)
+        {
+            nowPlayingSpan.Visible = true;
+            songPlayed.Text = labelSong.Text;
+        }
     }
 }
