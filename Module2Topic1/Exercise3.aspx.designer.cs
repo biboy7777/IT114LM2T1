@@ -24,6 +24,15 @@ namespace Module1Exercise1
         protected global::System.Web.UI.WebControls.TextBox percentageGrade;
 
         /// <summary>
+        /// calculateBtn control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button calculateBtn;
+
+        /// <summary>
         /// finalGrade control.
         /// </summary>
         /// <remarks>
